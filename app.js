@@ -122,26 +122,12 @@
 
 // console.log(getLevel2(5));
 
-// //Array2
-// function getSumArray(n, A, B) {
-//     let arr = [A, B];
-
-//     for (let i = 2; i < n; i++) {
-//         let sum = arr.reduce((acc, curr) => acc + curr, 0);
-//         arr.push(sum);
-//     }
-
-//     return arr;
-// }
-
 // console.log(getSumArray(5, 2, 3));
 
 // // Array3
 // function reverseArray(arr) {
 //     return arr.reverse();
 // }
-
-// console.log(reverseArray([1, 2, 3, 4, 5]));
 
 // //Array4
 // function oddNumbers(arr) {
@@ -156,41 +142,22 @@
 //     }
 // }
 
-// //Array5
-// function separateAndSort(arr) {
-//     let evenNumbers = [];
-//     let oddNumbers = [];
-
-//     for (let i = 0; i < arr.length; i++) {
-//         if (arr[i] % 2 === 0) {
-//             evenNumbers.push(arr[i]);
-//         } else {
-//             oddNumbers.push(arr[i]);
-//         }
-//     }
-
-//     return [...evenNumbers, ...oddNumbers.reverse()];
-// }
-
-// let result = separateAndSort([4, 5, 7, 8, 6, 9]);
-// console.log(result);
-
 // // Array6
 
 // function getEvenIndexElements(arr) {
-//     let result = [];
+// let result = [];
 
-//     for (let i = 0; i < arr.length; i += 2) {
-//         result.push(arr[i]);
-//     }
-
-//     return result;
+// for (let i = 0; i < arr.length; i += 2) {
+//     result.push(arr[i]);
 // }
+
+// return result;
 
 // let result = getEvenIndexElements([10, 20, 30, 40, 50, 60]);
 // console.log(result);
 
-//Array7
+// Array7
+
 // function getSelectedElements(arr) {
 //     let result = [];
 
@@ -205,6 +172,7 @@
 // console.log(result);
 
 // Array8
+
 // function separateIndices(arr) {
 //     let result = [];
 
@@ -222,43 +190,11 @@
 // let result = separateIndices([10, 20, 30, 40, 50, 60]);
 // console.log(result);
 
-// // Array9
-// function separateAndSort(arr) {
-//     let oddIndices = [];
-//     let evenIndices = [];
 
-//     for (let i = 1; i < arr.length; i += 2) {
-//         oddIndices.push(arr[i]);
-//     }
 
-//     for (let i = arr.length - 2; i >= 0; i -= 2) {
-//         evenIndices.push(arr[i]);
-//     }
 
-//     return [...oddIndices, ...evenIndices];
-// }
+// Array11
 
-// let result = separateAndSort([10, 20, 30, 40, 50, 60, 70]);
-// console.log(result);
-
-// Array10
-// function customOrder(arr) {
-//     let result = [];
-//     let left = 0;
-//     let right = arr.length - 1;
-
-//     while (left <= right) {
-//         if (left <= right) result.push(arr[left++]);
-//         if (left <= right) result.push(arr[right--]);
-//     }
-
-//     return result;
-// }
-
-// let result = customOrder([10, 20, 30, 40, 50, 60, 70]);
-// console.log(result);
-
-//Array11
 // function rangeOutSum(arr, K, L) {
 //     let sum = 0;
 
@@ -273,10 +209,10 @@
 //     return sum;
 // }
 
-// let result = rangeOutSum([10, 20, 30, 40, 50, 60, 70], 2, 4);
-// console.log(result);
 
-//Array12
+
+// Array12
+
 // function separateTruthyFalsy(arr) {
 //     let truthy = [];
 //     let falsy = [];
@@ -292,11 +228,9 @@
 //     return { truthy, falsy };
 // }
 
-// let result = separateTruthyFalsy([10, false, "", "Abdulaziz", null]);
-// console.log("Truthy:", result.truthy);
-// console.log("Falsy:", result.falsy);
 
 // Array13
+
 // function getOddMin(arr) {
 //     let min = arr[0];
 
@@ -309,10 +243,10 @@
 //     return min;
 // }
 
-// let result = getOddMin([10, 20, 30, 40, 50, 60, 70]);
-// console.log(result);
 
-//Array14
+
+// Array14
+
 // function getEvenMax(arr) {
 //     let max = arr[1];
 
@@ -324,6 +258,3 @@
 
 //     return max;
 // }
-
-// let result = getEvenMax([10, 20, 30, 40, 50, 60, 70]);
-// console.log(result);
